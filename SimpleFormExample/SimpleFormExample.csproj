@@ -132,9 +132,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202203111745415_initial.cs" />
-    <Compile Include="Migrations\202203111745415_initial.designer.cs">
-      <DependentUpon>202203111745415_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202203152058354_init.cs" />
+    <Compile Include="Migrations\202203152058354_init.designer.cs">
+      <DependentUpon>202203152058354_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Catalog.cs" />
@@ -221,8 +221,8 @@
     <Content Include="Scripts\bootstrap\bootstrap.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202203111745415_initial.resx">
-      <DependentUpon>202203111745415_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202203152058354_init.resx">
+      <DependentUpon>202203152058354_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
